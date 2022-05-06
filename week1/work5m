@@ -1,0 +1,11 @@
+%5
+x=-3:3
+y=[0 1 2 3 3 3 3]
+subplot(411)
+stem(x,y,'filled')
+subplot(412)
+stem(-x,y,'filled')
+subplot(413)
+stem(x+2,y,'filled')
+subplot(414)
+stem(2-x,y,'filled')

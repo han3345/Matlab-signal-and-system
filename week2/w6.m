@@ -1,0 +1,11 @@
+%6 
+n=0:40
+x=sin(0.2*n)
+subplot(311)
+stem(n,x,'filled')
+subplot(312)
+h=sin(0.5*n)
+stem(n,h,'filled')
+y=conv(x,h)
+subplot(313)
+stem(0:80,y,'filled')
